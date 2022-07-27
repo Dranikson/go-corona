@@ -250,12 +250,16 @@ main {
 	justify-content: center;
 }
 @media (max-width: 938px) {
+	.get-started__container {
+		margin: 154px auto 0;
+	}
 	.features__container {
 		width: 100%;
 		padding: 0 100px;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
+		flex-direction: column-reverse;
 	}
 	.features__content__shell {
 		flex: 1 1 auto;
@@ -273,7 +277,7 @@ main {
 	}
 	.features__content__shell {
 		width: 100%;
-		padding-top: 60px;
+		padding: 60px 0;
 		margin: 0 auto;
 		align-items: center;
 	}
@@ -334,7 +338,7 @@ main {
 
 	}
 	.header__body {
-		
+		min-height: 40px;
 	}
 	.header__container {
 		padding: 0 5px;
@@ -428,6 +432,8 @@ main {
 	.blue__button {
 		display: none;
 	}
+	/* ============================== */
+
 	/* ============================== */
 	.img__shell img {
 		width: 100%;
