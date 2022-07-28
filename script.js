@@ -5,17 +5,3 @@ $(document).ready(function() {
         $('body').toggleClass('lock');
     }) 
 });
-
-
-// const headerMenu = document.getElementsByClassName('.header__menu');
-// let index = 0;
-
-// const activeMenu = a => {
-//     for(n) {
-//         headerMenu.classList.remove('active');
-//     }
-// }
-
-// function close() {
-//     if 
-// }
