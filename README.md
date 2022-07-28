@@ -1,1 +1,1 @@
-# go-corona
+https://dranikson.github.io/go-corona/
